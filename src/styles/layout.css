@@ -1,0 +1,43 @@
+/* Layout Styles */
+.layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar Styles */
+  .layout aside {
+    width: 250px;
+    background: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .layout aside nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .layout aside nav ul li {
+    margin-bottom: 15px;
+  }
+  
+  .layout aside nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .layout aside nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Main Content Styles */
+  .layout main {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    overflow: auto;
+  }
+  

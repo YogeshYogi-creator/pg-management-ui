@@ -1,13 +1,11 @@
+import AppRoutes from './AppRoutes';
 import './index.css';
-import Login from './screens/Login';
-import Registration from './screens/Registration';
 
 function App() {
 
   return (
     <>
-      {/* <Registration /> */}
-      <Login />
+      <AppRoutes/>
     </>
   )
 }
